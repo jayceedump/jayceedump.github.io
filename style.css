@@ -1,0 +1,27 @@
+nav {
+    display:flex;
+    flex-direction: row;
+    background-color: blanchedalmond;
+    color: antiquewhite;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+nav a {
+    margin-left: 0.5 rem;
+    margin-right: 0.5 rem;
+    text-decoration: none;
+    color: burlywood;
+}
+nav a:hover{
+    color: cornflowerblue;
+    text-decoration:underline;
+}
+nav .logo{
+    font-weight: bold;
+    font-size: 1.5 rem;
+}
